@@ -1,0 +1,6 @@
+2022-04-11 19:27:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE FILME(ID INT PMINARY[*] KEY AUTO_INCREMENT,NOME VARCHAR(255),ANO_LANCAMENTO INT); "; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table filme(id int pminary key auto_increment,nome varchar(255),ano_lancamento int); [42001-199]
+2022-04-11 19:29:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE FILME(ID INT PMINARY[*] KEY AUTO_INCREMENT,NOME VARCHAR(255),ANO_LANCAMENTO INT); "; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table filme(id int pminary key auto_increment,nome varchar(255),ano_lancamento int); [42001-199]
